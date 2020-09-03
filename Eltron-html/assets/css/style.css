@@ -1019,15 +1019,17 @@ select:visited {
     position: absolute;
     background-color: #dddddd; }
   .site-info-icon-text:hover {
-    background-color: #0071b4; }
+    background-color: #228b22 }
     .site-info-icon-text:hover .site-info-icon svg {
       fill: #fff; }
     .site-info-icon-text:hover .site-info-text h3 {
       color: #fff; }
     .site-info-icon-text:hover .site-info-arrow i {
       color: #fff; }
+    .site-info-icon-text:hover .site-info-text h6 {
+      color: #fff; }
     .site-info-icon-text:hover:after {
-      background-color: #14cedd; }
+      background-color: #125c12; }
 
 /*---------------------------------------------------- */
 /*About area*/
@@ -3434,4 +3436,15 @@ select:visited {
 	font-size:12px;
 	color:#ff0000;
 	font-weight:500;	
+}
+
+/* custom css */
+.slider-content-box > h1{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 20px ;
+    text-align: center;
+} 
+.slider-content-box > p{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 20px ;
 }
