@@ -1,3 +1,9 @@
+/* -----------------  my css*/
+:root {
+  --main-color: #228b5e;
+  --main-color-t: rbga(34, 139, 94, 0.7); 
+}
+
 /*----------------------------------------------------
 @File: Default Styles
 @Author:  themexriver
@@ -711,8 +717,8 @@ select:visited {
     .header_style_two .header_top .header_top_info {
       padding-right: 300px; }
   .header_style_two .site-main-menu {
-    padding: 25px 0px 20px 60px;
-    border-bottom: 1px solid #6f6f6f; }
+    padding: 25px 60px 20px 60px;
+     }
     .header_style_two .site-main-menu .navbar-nav {
       padding-top: 10px; }
     .header_style_two .site-main-menu .main_navigation li a {
@@ -817,7 +823,7 @@ select:visited {
       .slider-style-one .main-slider-img-text .slider-content-box span img {
         margin-right: 10px; }
     .slider-style-one .main-slider-img-text .slider-content-box h1 {
-      font-size: 60px;
+      font-size: 40px;
       font-weight: 700;
       padding: 5px 0px 15px;
       opacity: 0;
@@ -826,7 +832,7 @@ select:visited {
       transform: translateY(30px); }
     .slider-style-one .main-slider-img-text .slider-content-box p {
       opacity: 0;
-      font-size: 20px;
+      font-size: 16px;
       -webkit-transform: translateX(-50px);
       -ms-transform: translateX(-50px);
       transform: translateX(-50px); }
@@ -866,7 +872,7 @@ select:visited {
       background-color: #0071b4; }
 
 .slider-style-two .main-slider-img-text .slider-content-box {
-  padding: 290px 0px 210px 0px; }
+  padding: 200px 0px 210px 0px; }
 
 .img-zooming {
   background-repeat: no-repeat;
@@ -972,13 +978,16 @@ select:visited {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: -20px;
+  top: -200px;
   z-index: 1;
-  background-color: #fff; }
+  /*background-color: #fff; */}
 
 .site-info-icon-text {
   width: 380px;
+  margin: 10px;
   padding: 50px 30px 40px 30px;
+  background-color: #fff;
+  border-radius: 50px;
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out; }
@@ -986,7 +995,7 @@ select:visited {
     margin-right: 15px; }
     .site-info-icon-text .site-info-icon svg {
       height: 65px;
-      fill: #004168;
+      fill: var(--main-color);
       -webkit-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
       transition: .3s all ease-in-out; }
@@ -1010,14 +1019,14 @@ select:visited {
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
-  .site-info-icon-text:after {
+  /*.site-info-icon-text:after {
     right: 0;
     bottom: 0;
     content: '';
     width: 60px;
     height: 5px;
     position: absolute;
-    background-color: #dddddd; }
+    background-color: #dddddd; }*/
   .site-info-icon-text:hover {
     background-color: #228b22 }
     .site-info-icon-text:hover .site-info-icon svg {
@@ -1028,8 +1037,8 @@ select:visited {
       color: #fff; }
     .site-info-icon-text:hover .site-info-text h6 {
       color: #fff; }
-    .site-info-icon-text:hover:after {
-      background-color: #125c12; }
+    /*.site-info-icon-text:hover:after {
+      background-color: #125c12; }*/
 
 /*---------------------------------------------------- */
 /*About area*/
@@ -3439,6 +3448,15 @@ select:visited {
 }
 
 /* custom css */
+/* Header */
+.header_inside{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin: 0;
+  width: 50vw;
+  height: 35vh;
+}
+/*
 .slider-content-box > h1{
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: 20px ;
@@ -3447,4 +3465,10 @@ select:visited {
 .slider-content-box > p{
     background-color: rgba(0, 0, 0, 0.7);
     padding-left: 20px ;
+}*/
+
+
+/* main 3 cate */
+.sub_cate{
+  fill: red;
 }
