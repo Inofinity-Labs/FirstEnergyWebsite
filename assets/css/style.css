@@ -226,7 +226,7 @@ Color Code
     z-index: -1;
     left: -37px;
     position: absolute;
-    background-color: #14cedd;
+    background-color: var(--main-color);
     -webkit-transition: .5s all ease-out;
     -o-transition: .5s all ease-out;
     transition: .5s all ease-out; }
@@ -1394,7 +1394,7 @@ select:visited {
         content: '\f138';
         font-weight: 900;
         position: absolute;
-        color: #14cedd;
+        color: var(--main-color);
         font-family: 'Font Awesome 5 Free'; }
   .service-details-section .service-single-content .service-single-icon-text {
     margin: 0px -5px; }
@@ -1422,7 +1422,7 @@ select:visited {
       color: #222222;
       font-weight: 800; }
   .service-sidebar-widget .help-widget {
-    background-color: #0071b4;
+    background-color: var(--main-color);
     padding: 40px 30px; }
     .service-sidebar-widget .help-widget .widget-title {
       margin-bottom: 30px; }
@@ -1436,7 +1436,7 @@ select:visited {
       .service-sidebar-widget .help-widget .contact-text p strong {
         font-size: 24px; }
   .service-sidebar-widget .opening-hour-widget {
-    background-color: #14cedd;
+    background-color: var(--main-color);
     padding: 40px 30px; }
     .service-sidebar-widget .opening-hour-widget span {
       color: #fff; }
