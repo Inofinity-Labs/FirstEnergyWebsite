@@ -1178,7 +1178,8 @@ select:visited {
         font-size: 18px; }
   .features-icon-text:hover {
     padding-bottom: 65px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    outline: 5px solid var(--main-color); }
     .features-icon-text:hover .features-hover-content {
       opacity: 1;
       visibility: visible; }
@@ -2589,7 +2590,7 @@ select:visited {
 /*breadcurmb area*/
 /*----------------------------------------------------*/
 .breadcrumb-section {
-  padding: 135px 0px;
+  padding: 15vh 0 15vh 0;
   position: relative;
   z-index: 1; }
   .breadcrumb-section .background_overlay {
@@ -3487,3 +3488,10 @@ select:visited {
   color: #fff;
   background-color: var(--main-color);
 }
+
+.task-title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 10px; }
