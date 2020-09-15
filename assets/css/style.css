@@ -2423,7 +2423,7 @@ select:visited {
       height: 100%;
       width: 540px;
       position: absolute;
-      background-color: #edf1f4;
+      /* background-color: #edf1f4; */
       background-repeat: no-repeat;
       background-image: url(../img/background/abbg.png);
     }
@@ -2645,7 +2645,8 @@ select:visited {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1; }
   .breadcrumb-section .breadcrumb-content {
-    padding-left: 45px; }
+    padding-left: 45px;
+  float: right; }
   .breadcrumb-section .breadcrumb-title {
     color: #fff;
     font-size: 20px!important;
@@ -3672,3 +3673,8 @@ select:visited {
     font-size: 40px!important;
     font-weight: 500!important;}
 
+.ground-heading h1,h2,h3,h4,h5,h6{
+    text-align: left;
+    padding: 0 5px 0 5px;
+    text-transform: uppercase;
+    }
