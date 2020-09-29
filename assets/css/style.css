@@ -238,7 +238,8 @@ Color Code
     background-color: var(--main-color);
     -webkit-transition: .5s all ease-out;
     -o-transition: .5s all ease-out;
-    transition: .5s all ease-out; }
+    transition: .5s all ease-out; 
+    border-radius: 25px;}
   .service-sidebar-widget .service-cat-widget li:hover, .blog-sidebar-widget .category-widget li:hover {
     padding-left: 32px; }
     .service-sidebar-widget .service-cat-widget li:hover:before, .blog-sidebar-widget .category-widget li:hover:before {
@@ -454,7 +455,7 @@ select:visited {
   position: fixed;
   border-radius: 100%;
   line-height: 55px;
-  background-color: #14cedd; }
+  background-color: var(--main-color); }
   .scrollup i {
     color: #fff; }
 
@@ -3774,4 +3775,14 @@ select:visited {
 
 .service-sidebar-widget .service-cat-widget li a, .blog-sidebar-widget .category-widget li a{
   font-size: 15px!important;
+}
+
+/*.service-single-content .service-details-img-pair img{
+  
+  background-color: red;
+  margin-bottom: 10px;
+}*/
+
+.w3-animate-right{
+  animation-duration: 3s!important;
 }
