@@ -1450,7 +1450,8 @@ select:visited {
   margin-bottom: 30px; }
   .service-sidebar-widget .service-cat-widget {
     padding: 38px;
-    background-color: #edf1f4; }
+    background-color: #edf1f4; 
+  border-radius: 50px;}
     .service-sidebar-widget .service-cat-widget .widget-title {
       font-size: 22px;
       color: #222222;
@@ -3542,9 +3543,11 @@ select:visited {
   padding: 1rem 5rem 1rem 5rem;
   border: 2px solid var(--main-color);
   color: #fff;
-  border-radius: 0;
+  border-radius: 25px;
+  background-color: rgba(0,0,0, 0.0);
 }
-.submit-btn:hover{
+
+.submit-btn a:hover{
   border: 2px solid#fff;
   color: #fff;
   background-color: var(--main-color);
@@ -3753,10 +3756,12 @@ select:visited {
 .footer2 a{
   padding: 15px 0 15px 0;
   height: auto!important;
-  border-radius: 0px;
+  border-radius: 50px;
   background-color: rgba(0, 0, 0, 0.1);
   border: 2px solid var(--main-color);
+  text-decoration: none;
 }
+.footer2 a:hover{text-decoration: none;color:#fff;}
 
 
 /* w3-row h5*/
@@ -3792,7 +3797,7 @@ select:visited {
 }
 
 /* Our People */
-.ourpeople-overlay{
+/* .ourpeople-overlay{
   position: absolute;
   background-color: var(--main-color);
   top: 0;
@@ -3804,7 +3809,7 @@ select:visited {
   .ourpeople-overlay {
     display: none;
   }
-}
+} */
 .service-single-content .row{
   margin-bottom: 30px;
 }
